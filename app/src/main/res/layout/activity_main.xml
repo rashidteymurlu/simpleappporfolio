@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="434dp"
+        android:layout_height="227dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="433dp"
+        android:layout_height="215dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            app:srcCompat="@drawable/mfoto" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="120dp"
+            android:text="Date of birth: 8 Aug 1995"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="159dp"
+            android:layout_marginEnd="127dp"
+            android:text="Nationality: Azerbaijani"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="430dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="138dp"
+            android:text="Mirjavid Teymurov "
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="161dp"
+            android:text="Gender: Male"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="438dp"
+        android:layout_height="619dp"
+        android:layout_margin="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-55dp"
+            android:orientation="vertical">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview1"
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="80dp"
+                    android:layout_marginLeft="45dp"
+                    app:cardBackgroundColor="@color/mycolor"
+                    app:layout_column="2"
+                    app:layout_row="0">
+
+                    <ImageView
+                        android:id="@+id/aboutmeicon"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/aboutme" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="140dp" />
+
+                    <Button
+                        android:id="@+id/aboutmebutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="#F8F3FA"
+                        android:text="About me"
+                        android:textSize="20sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="80dp"
+                    android:layout_marginLeft="-60dp"
+                    app:cardBackgroundColor="@color/mycolor"
+                    app:layout_column="3"
+                    app:layout_row="0">
+
+                    <ImageView
+                        android:id="@+id/workicon"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/workex" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="140dp" />
+
+                    <Button
+                        android:id="@+id/workexbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="#F8F3FA"
+                        android:text="Work Experience"
+                        android:textSize="16sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="40dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="-60dp"
+                    android:layout_marginTop="270dp"
+                    app:cardBackgroundColor="@color/mycolor"
+                    app:layout_column="3"
+                    app:layout_row="0">
+
+
+                    <ImageView
+                        android:id="@+id/languageicon"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/language" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="140dp" />
+
+                    <Button
+                        android:id="@+id/languageskillsbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="#F8F3FA"
+                        android:text="Language Skills"
+                        android:textSize="17sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="40dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="270dp"
+                    app:cardBackgroundColor="@color/mycolor"
+                    app:layout_column="2"
+                    app:layout_row="0">
+
+                    <ImageView
+                        android:id="@+id/eduicon"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/eduiconn" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="140dp" />
+
+                    <Button
+                        android:id="@+id/eduandtraningbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="#F8F3FA"
+                        android:text="Education And Traning"
+                        android:textSize="16sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="0dp"
+                    android:layout_marginLeft="-60dp"
+                    android:layout_marginTop="460dp"
+                    app:cardBackgroundColor="@color/mycolor">
+
+
+                    <ImageView
+                        android:id="@+id/contacticon"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/contactme" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="140dp" />
+
+                    <Button
+                        android:id="@+id/contactbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="#F8F3FA"
+                        android:gravity="center"
+                        android:text="Contact"
+                        android:textSize="20sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="40dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="460dp"
+                    app:cardBackgroundColor="@color/mycolor"
+                    app:layout_column="2"
+                    app:layout_row="0">
+
+                    <ImageView
+                        android:id="@+id/digitalskillsicon"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/digitalskills" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="140dp" />
+
+                    <Button
+                        android:id="@+id/digitalskillsbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="#F8F3FA"
+                        android:text="@string/digital_skills"
+                        android:textSize="20sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.gridlayout.widget.GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

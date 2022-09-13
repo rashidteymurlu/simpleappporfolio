@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MirJavid Teymurov</string>
+
+    <string name="aboutme">"Bachelor's and Master's degree in geophysics, graduation with honors, winning a
+number of scholarship programs, ability to investigate and solve problems,
+honesty, reliability, more than 4 years of experience in geophysical research and
+mapping, as well as high interest in this field, ability to work with a team will make
+sure that I will play an important role in the development of your company"</string>
+    <string name="workexperience">"3 AUG 2019 – CURRENT – Baku, Azerbaijan
+Geophysical Surveyor and Mapping - SOCAR
+Researched legal descriptions and survey maps to verify property lines and
+gather requisite information for mapping ;
+Developed and created GIS maps as requested by implementing ArcMap and
+analyzing relevant data ;
+Assisted in data management and organization, including vector and raster
+data ;
+Spatial data coordinate system conversion ;
+Collect field data using GPS and other field equipment,as well as operation
+GIS-specific hardware including large format plotters and scanners.
+
+6 JUN 2017 – 4 JUL 2018 – Baku, Azerbaijan
+Geophysicist - SOCAR
+Analyze and interpret geological data, using computer software;
+Prepare geological maps, cross-sectional diagrams, charts, or reports
+concerning mineral extraction, land use, or resource management, using
+results of fieldwork or laboratory research;
+Measure characteristics of the Earth, such as gravity or magnetic fields, using
+equipment such as seismographs, gravimeters, torsion balances, or
+magnetometers.
+
+1 JAN 2017 – 4 JUN 2017 – Baku, Azerbaijan
+Field Engineer - AZEA CONSTRUCTION
+Developing construction project budgets ;
+Overseeing progress and safety on construction sites ;
+Gathering resources, including employees, tools, machines and physical
+materials .
+"</string>
+    <string name="eduandtraning">"SEP 2012 – JUL 2016 – Azerbaijan
+Well logging
+Azerbaijan State Oil and Industry University
+
+SEP 2016 – JUL 2018 - Azerbaijan
+Geophysical engineering
+Azerbaijan State Oil and Industry University
+"</string>
+    <string name="languageskills">"
+MOTHER TONGUE(S): Azerbaijani
+OTHER LANGUAGE(S): English
+Listening : B1
+Reading : B2
+Spoken production : B1
+Spoken interaction : A2
+Writing : B1"</string>
+    <string name="digitalskills">"My Digital Skills
+Microsoft Office / Google Map - Google Earth / ArcGIS pro / ArcScene / MapInfo / Petrel® - Analysis and interpretation of seismic data from Gullfaks Field / CorelDraw / QGIS
+"</string>
+    <string name="callnumber">"Phone Number : (+994) 506141871</string>
+    <string name="linkedinaccount">LinkedIn: https://www.linkedin.com/in/mircavidteymurov-673340195</string>
+    <string name="gmailaccount">Gmail : mircavidteymurov11@gmail.com</string>
+    <string name="location">Location : Sumgait city , U.Hajibeyov str.,9th-mcr, Ap-75, AZ 5001 Sumgait, Azerbaijan"</string>
+
+    <string name="digital_skills">Digital Skills</string>
+
+
+</resources>
